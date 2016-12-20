@@ -33,7 +33,7 @@
         </activity>
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="你的key" />
+            android:value="你的Key" />
     </application>
 
 </manifest>
