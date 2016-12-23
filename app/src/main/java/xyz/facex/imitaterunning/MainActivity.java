@@ -1,4 +1,4 @@
-package xyz.facex.simulaterunning;
+package xyz.facex.imitaterunning;
 
 import android.graphics.Color;
 import android.os.Bundle;
