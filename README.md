@@ -1,9 +1,8 @@
 # ImitateRunning
 
-[《使用高德地图模拟运动轨迹》](http://facex.xyz/2016/12/14/使用高德地图模拟运动轨迹/)文章Demo。
+### 目前存在的问题：动画只能停在轨迹数组的坐标点上，无法马上停止动画，有解决方案可以和我联系，也可以提issues，谢谢。
 
-APK下载地址：https://www.pgyer.com/ImitateRunning
+[《使用高德地图模拟运动轨迹》](http://facex.xyz/2016/12/14/使用高德地图模拟运动轨迹/)文章Demo。
 
 > 请在manifests文件中添加你的的高德key。
 
-![SimulateRunning](http://ohnwilkou.bkt.clouddn.com/SimulateRunning.gif)
