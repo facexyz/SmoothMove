@@ -13,16 +13,16 @@ android {
     }
 
     //    只打包armeabi
-    splits {
-        // Split apks on build target ABI, view all options for the splits here:
-        // http://tools.android.com/tech-do ... er-guide/apk-splits
-        abi {
-            enable true
-            reset()
-            include 'armeabi'//只打包armeabi平台的，就算有其他文件夹也不管
-//                include 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'mips', 'x86', 'x86_64'
-        }
-    }
+//    splits {
+//        // Split apks on build target ABI, view all options for the splits here:
+//        // http://tools.android.com/tech-do ... er-guide/apk-splits
+//        abi {
+//            enable true
+//            reset()
+//            include 'armeabi'//只打包armeabi平台的，就算有其他文件夹也不管
+////                include 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'mips', 'x86', 'x86_64'
+//        }
+//    }
     buildTypes {
         release {
             minifyEnabled false
@@ -43,5 +43,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
     compile 'com.android.support:design:25.0.1'
+    compile 'com.amap.api:map3d:latest.integration'
+    compile 'com.amap.api:map3d-native:latest.integration'
     testCompile 'junit:junit:4.12'
 }
