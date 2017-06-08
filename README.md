@@ -12,5 +12,9 @@
 1. 支持暂停和继续。
 2. 支持在任意时刻，任意位置暂停。
 3. 支持以速度来驱动动画，并且支持动画中改变速度。
----
+
 ## 更多请查看博客:[使用高德地图实现点平滑移动-优化版](http://facex.xyz/2017/06/06/使用高德地图实现点平滑移动-优化版/)
+
+---
+
+### Thanks to : [android-smooth-move](https://github.com/amap-demo/android-smooth-move)
